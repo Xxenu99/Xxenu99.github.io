@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-family: monospace;
+}
+
+.wrapper {
+    width: 1100px;
+    max-width: 0%;
+    margin: 0 auto;
+    position: fixed;
+}
+
+#logo {
+    position: absolute;
+    left: 20px;
+    width: 160px;
+    top: 380px;
+    padding-top: 70px;
+}
+
+.bg_animate{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.header_nav{
+    background-color: #333;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header_nav .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.header_nav h1{
+    color: #fff;
+    font-family: 'Gagalin';
+}
+
+.header_nav nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+.header_nav nav a:hover{
+    background: rgb(32, 32, 32);
+    border-radius: 20px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.header {
+    height: 100vh !important;
+    background: url(images/header-icon/japonheader.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    font-family: monospace;
+    margin-bottom: 40px;
+    font-size: 120px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #9c27b0;
+    text-shadow: 3px 4px 5px rgb(24, 24, 24);
+}
+
+.title1 {
+    font-family: monospace;
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    background: #141e35;
+    box-shadow: 5px 4px 5px rgb(24, 24, 24);
+}
+
+.title2 {
+    font-family: monospace;
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    background: #141e35;
+    box-shadow: 5px 4px 5px rgb(24, 24, 24);
+}
+
+.title3 {
+    font-family: monospace;
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    background: #141e35;
+    box-shadow: 5px 4px 5px rgb(24, 24, 24);
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: #fff;
+    padding: 0 100px;
+    padding-top: 20px;
+    font-family: cursive;
+}
+
+.back {
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    color: #fff;
+    text-decoration: none;
+    background: #9c27b0;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+}
+
+.back:hover {
+    background: #5e1e69;
+    
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 85px;
+    background: #1f1d1d
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box1 {
+    height: 19.5rem;
+    width: 25rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 0 auto;   
+}
+
+.box-container .box1:hover {
+    height: 22rem;
+    width: 28rem;
+    background: #090909;
+    box-shadow: 20px 20px 5px rgba(0, 0, 0, 0.5);
+    
+}
+
+.box-container .box2 {
+    height: 19.5rem;
+    width: 25rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 0 auto;      
+}
+
+.box-container .box2:hover {
+    height: 22rem;
+    width: 28rem;
+    background: #090909;
+    box-shadow: 20px 20px 5px rgba(0, 0, 0, 0.5);
+    
+}
+
+.box-container .box3 {
+    height: 19.5rem;
+    width: 25rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 0 auto;   
+}
+
+.box-container .box3:hover {
+    height: 22rem;
+    width: 28rem;
+    background: #090909;
+    box-shadow: 20px 20px 5px rgba(0, 0, 0, 0.5);
+    
+}
+
+.img1{
+    height: 42vh !important;
+    background-size: cover;
+}
+
+.img1:hover{
+    height: 48vh !important;
+}
+
+.text1{
+    width: 700px;
+    text-align: left;
+    margin: 0 auto;   
+}
+
+.text2{
+    width: 700px;
+    text-align: left;
+    margin: 0 auto;   
+}
+
+.text3{
+    width: 700px;
+    text-align: left;
+    margin: 0 auto;   
+}
